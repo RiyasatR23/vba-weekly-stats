@@ -1,0 +1,6 @@
+# Excel lock files
+~$*
+# generated reports
+*.pdf
+!docs/*.pdf
+__pycache__/
