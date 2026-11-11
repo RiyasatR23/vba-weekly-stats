@@ -518,7 +518,7 @@ Private Sub AddTrendChart(sh As Worksheet, ByVal firstRow As Long, ByVal lastRow
         .ChartTitle.Font.Size = 12
         .HasLegend = True
         .Legend.Position = xlLegendPositionBottom
-        .Axes(xlValue, xlPrimary).TickLabels.NumberFormat = MoneyFmt()
+        .Axes(xlValue, xlPrimary).TickLabels.NumberFormat = "General"
     End With
 End Sub
 
